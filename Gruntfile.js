@@ -64,8 +64,10 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('build', ['jshint','clean','copy','sass']);
 
-	grunt.registerTask('server', ['build', 'connect:server', 'watch']);
+	grunt.registerTask('server', ['build', 'connect:server']);
 
-	grunt.registerTask('default',['build']);
+	grunt.registerTask('develop', ['server', 'watch']);
+
+	grunt.registerTask('default', ['server']);
 
 };
