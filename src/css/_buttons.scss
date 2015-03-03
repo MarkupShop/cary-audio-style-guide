@@ -1,0 +1,69 @@
+.buttons {
+
+	.flex-direction-nav{
+
+		list-style: none;
+		margin: 0;
+		padding: 0px;
+
+		li{
+			margin: 0px;
+			line-height: 0;
+			display: inline-block;
+		}
+
+		a{
+			background-color: $cary-blue;
+			width: 32px;
+			height: 32px;
+			margin: 0;
+			display: block;
+			cursor: pointer;
+			background-repeat: no-repeat;
+			background-position: 3px 4px;
+			transition: all 0.2s linear;
+			-moz-transition: all 0.2s linear;
+			-webkit-transition: all 0.2s linear;
+			-o-transition: all 0.2s linear;
+			text-indent: -999em;
+			background-image: url('http://www.caryaudio.com/wp-content/themes/nevada/images/camera/slider-navigation.png');
+		}
+
+		a.flex-next {
+			background-position: 4px -23px;
+		}
+
+		a:hover{
+			background-color: #111;
+			opacity: 1;
+		}
+
+	}
+
+	.to-top{
+		margin-top: 2em;
+		background-image: url('http://www.caryaudio.com/wp-content/themes/nevada/images/blue/to-top.png');
+		bottom: 58px;
+		right: 50px;
+		text-decoration: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		cursor: pointer;
+		z-index: 999;
+		text-indent: -9999px;
+		display: block;
+		height: 26px;
+		width: 51px;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	}
+
+	.to-top:hover{
+		background-position: 0 -26px;
+	}
+
+}

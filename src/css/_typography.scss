@@ -1,0 +1,84 @@
+.typography {
+
+	p.fonts-platino {
+		font-family: $primary-font-stack;
+	}
+
+	.typography-body-copy p{
+		font-size: 13px;
+		font-family: $primary-font-stack;
+		line-height: 1.5em;
+		margin: 0 0 20px 0;
+	}
+
+	.typography-headings{
+
+		h1, h2, h3, h4, h5, h6{
+			margin-bottom: 20px;
+			margin-top: 20px;
+			color: #000;
+			font-weight: normal;
+		}
+
+		h1{
+			margin: 0px;
+			font-size: 20px;
+			text-transform: uppercase;
+			background-attachment: scroll;
+			background-repeat: repeat-x;
+			background-position: left center;
+			background-image: url('http://www.caryaudio.com/wp-content/themes/nevada/images/icons/divider1.png');
+			letter-spacing: 1px;
+		
+			span{ 
+				padding-right: 10px;
+				background-color: #fff;
+			}
+
+		}
+
+		h2{
+			font-size: 20px;
+			line-height: 1.3em;
+		}
+
+		h3{
+			font-size: 18px;
+			line-height: 1.3em;
+		}
+
+		h4{
+			font-size: 16px;
+			line-height: 1.25em;
+		}
+		
+		h5{
+			font-size: 14px;
+			line-height: 1.2em;
+		}
+
+		h6{
+			font-size: 12px;
+			line-height: 1.2em;
+		}
+
+	}
+
+	table {
+
+		width: 100%;
+
+		th,td{
+			padding: 10px;
+			border: 1px solid #d1d1d1;
+		}
+
+		th{
+			text-align: left;
+			font-weight: bold;
+			padding: .4em .8em;
+		}
+
+	}
+
+}

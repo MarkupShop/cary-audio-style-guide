@@ -1,0 +1,39 @@
+.color-block {
+
+	.color-block-swatch{
+		width: 100%;
+		height: 100px;
+	}
+
+	.color-block-swatch-secondary{
+		width: 100%;
+		height: 50px;
+	}
+
+	.color-block-swatch-white{
+		background: #fff;
+		border: 1px solid #eee;
+	}
+
+	.color-block-swatch-black{
+		background: #000;
+	}
+
+	.color-block-swatch-blue{
+		background: $cary-blue;
+	}
+
+	.color-block-swatch-black-stripes{
+		background: #000 url('http://www.caryaudio.com/wp-content/themes/nevada/images/footer/pattern/1Dark.png') repeat;
+	}
+
+	.color-block-swatch-grey{
+		background: #242424;
+	}
+
+	p{
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+
+}
